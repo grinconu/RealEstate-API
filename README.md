@@ -63,6 +63,16 @@ El proyecto implementa **seguridad con JWT (JSON Web Tokens)**:
 
 ---
 
+
+## 📘 Documentación con OpenAPI
+
+Este proyecto utiliza **OpenAPI** para documentar automáticamente los endpoints disponibles en la API.  
+
+- Al iniciar la aplicación, se levanta en el navegador una página con el **JSON de especificación OpenAPI**.  
+- Ese archivo puede ser importado fácilmente en **Postman**, **Insomnia** u otros programas de prueba de APIs para consumir los servicios directamente.
+
+---
+
 ## ⚙️ Configuración con User Secrets
 
 Este proyecto utiliza **User Secrets** para configurar la conexión a la base de datos y los parámetros de autenticación, evitando que información sensible quede en el código fuente.
