@@ -1,6 +1,6 @@
 @RealEstate.Api_HostAddress = http://localhost:5232
 
-GET {{RealEstate.Api_HostAddress}}/weatherforecast/
+GET {{RealEstate.Api_HostAddress}}/
 Accept: application/json
 
 ###
